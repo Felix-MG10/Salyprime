@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
 
-Color _primaryColor = const Color(0xFF1455AC);
-Color _secondaryColor = const Color(0xFFF58300);
+Color _primaryColor = const Color(0xFF1E40AF); // couleur primaire
+Color _secondaryColor = const Color(0xFFF59E0B); // Couleur secondaire
+
 
 ThemeData dark = ThemeData(
-  fontFamily: 'TitilliumWeb',
+  fontFamily: 'Inter',
   primaryColor: _primaryColor,
   brightness: Brightness.dark,
   bottomSheetTheme: const BottomSheetThemeData(backgroundColor: Colors.transparent),
