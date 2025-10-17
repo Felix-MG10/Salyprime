@@ -79,10 +79,10 @@ Future<void> main() async {
         await Firebase.initializeApp(
           name: 'drivevalley-fdb7f',
           options: const FirebaseOptions(
-            apiKey: "AIzaSyCFGqSEiWMItei_AFIUgdM53PWrvyGmjFY",
-            projectId: "drivevalley-fdb7f",
-            messagingSenderId: "76471554747",
-            appId: "1:76471554747:android:0ac224c482bca2536d0f9e"
+            apiKey: "AIzaSyCOqO7K5oPOR7uNGZYpOpOG4Q5GiGNhveI",
+            projectId: "salyprime-vendor",
+            messagingSenderId: "205905872905",
+            appId: "1:205905872905:android:07bdb2f31c48ffdeead0d8"
           )
         );
       } finally {

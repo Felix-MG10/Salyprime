@@ -19,7 +19,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.sixamtech.sixvalley.seller"
+    namespace = "com.dakarapps.salyprime_vendor"
     compileSdk = flutter.compileSdkVersion
 
     compileOptions {
@@ -34,7 +34,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.sixamtech.sixvalley.seller"
+        applicationId = "com.dakarapps.salyprime_vendor"
         multiDexEnabled = true
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion

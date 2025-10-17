@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
 
    <application
-       android:label="6Valley Vendor"
+       android:label="SalyPrime Vendor"
        android:name="${applicationName}"
        android:extractNativeLibs="true"
        android:icon="@mipmap/ic_launcher"
@@ -35,7 +35,7 @@
 
        <meta-data
            android:name="com.google.android.geo.API_KEY"
-           android:value="map_api_key_here" />
+           android:value="AIzaSyB3YNfseZ8F59RM1k20ACLh2eYKmc-d7wk" />
 
 
         <activity
