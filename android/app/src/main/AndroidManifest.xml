@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
 
    <application
-       android:label="SalyPrime Vendor"
+       android:label="Salyprime Pro"
        android:name="${applicationName}"
        android:extractNativeLibs="true"
        android:icon="@mipmap/ic_launcher"
