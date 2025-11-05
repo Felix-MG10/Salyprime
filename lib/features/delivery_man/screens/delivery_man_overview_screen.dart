@@ -40,7 +40,7 @@ class DeliveryManOverViewScreen extends StatelessWidget {
                         double.parse(deliveryManProvider.deliveryManDetails!.deliveryMan!.wallet!.currentBalance!) : 0),
                     const Divider(thickness: .1,),
                     BalanceStatementWidget(icon: Images.withdrawableBalance, text: getTranslated('withdrawable_balance', context),
-                        color: Colors.orange,amount: deliveryManProvider.deliveryManDetails?.withdrawbaleBalance != null ?
+                        color: const Color(0xFF2E5367),amount: deliveryManProvider.deliveryManDetails?.withdrawbaleBalance != null ?
                         deliveryManProvider.deliveryManDetails!.withdrawbaleBalance : 0),
                     const Divider(thickness: .1,),
                     BalanceStatementWidget(icon: Images.pendingWithdraw, text: getTranslated('pending_withdraw', context),

@@ -80,7 +80,7 @@ class ReviewWidget extends StatelessWidget {
                   
                       Row(children: [
                         Icon(Icons.star, color: Provider.of<ThemeController>(context).darkTheme ?
-                            Colors.white : Colors.orange, size: Dimensions.iconSizeDefault),
+                            Colors.white : const Color(0xFF2E5367), size: Dimensions.iconSizeDefault),
                   
                         Text('${reviewModel!.rating!.toDouble().toStringAsFixed(1)}/5', style: robotoRegular.copyWith(color: Theme.of(context).textTheme.bodyLarge?.color)),
                   

@@ -75,19 +75,14 @@ Future<void> main() async {
 
   if(Firebase.apps.isEmpty){
     if(Platform.isAndroid){
-      try{
-        await Firebase.initializeApp(
-          name: 'drivevalley-fdb7f',
-          options: const FirebaseOptions(
-            apiKey: "AIzaSyCOqO7K5oPOR7uNGZYpOpOG4Q5GiGNhveI",
-            projectId: "salyprime-vendor",
-            messagingSenderId: "205905872905",
-            appId: "1:205905872905:android:07bdb2f31c48ffdeead0d8"
-          )
-        );
-      } finally {
-        await Firebase.initializeApp();
-      }
+      await Firebase.initializeApp(
+        options: const FirebaseOptions(
+          apiKey: "AIzaSyDsej0azsHeoY1VBU02QMLOvbV3OCF0OV4",
+          projectId: "melytgo-vendor",
+          messagingSenderId: "440183651851",
+          appId: "1:440183651851:android:8b803415f40409060cd10e"
+        )
+      );
     }else {
       await Firebase.initializeApp();
     }

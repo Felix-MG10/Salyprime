@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 
-Color _primaryColor = const Color(0xFF1E40AF); // couleur primaire
-Color _secondaryColor = const Color(0xFFF59E0B); // Couleur secondaire
+Color _primaryColor = const Color(0xFF2E5367); // couleur primaire
+Color _secondaryColor = const Color(0xFF2E5367); // Couleur secondaire
 
 
 ThemeData dark = ThemeData(
@@ -33,10 +33,10 @@ ThemeData dark = ThemeData(
       primaryContainer: const Color(0xFF208458),
       secondaryContainer: const Color(0xFFF2F2F2),
       surface: const Color(0xFF242424),
-      outline: const Color(0xff5C8FFC), // Info Color / Pending color
-      surfaceTint: const Color(0xff5C8FFC),
+      outline: _primaryColor, // Info Color / Pending color
+      surfaceTint: _primaryColor,
       onPrimary: const Color(0xFFF2F2F2),
-      onSecondary: const Color(0xFFFC9926),
+      onSecondary: const Color(0xFF2E5367),
       error: const Color(0xFFFF4040), // Danger Color
   ),
 

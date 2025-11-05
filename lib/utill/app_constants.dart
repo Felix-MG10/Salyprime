@@ -3,12 +3,12 @@ import 'package:sixvalley_vendor_app/utill/images.dart';
 import '../features/shop/domain/models/guideline_model.dart';
 
 class AppConstants {
-  static const String appName = 'SalyPrime Vendor';
+  static const String appName = 'Melytgo Vendor';
   static const String appVersion = '15.5'; /// Flutter SDK version - 3.35.4
-  static const String companyName = 'SalyPrime';
+  static const String companyName = 'Melytgo';
 
 
-   static const String baseUrl = 'https://salyprime.com';
+   static const String baseUrl = 'https://abs-brand.com';
 
   static const String loginUri = '/api/v3/seller/auth/login';
   static const String configUri = '/api/v1/config';

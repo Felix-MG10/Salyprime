@@ -138,7 +138,7 @@ class DeliveryManCardWidget extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.symmetric(vertical: Dimensions.paddingSizeExtraSmall),
                               child: Row(children: [
-                                const Icon(Icons.star_rate_rounded, color: Colors.orange),
+                                const Icon(Icons.star_rate_rounded, color: Color(0xFF2E5367)),
                                 Text(deliveryMan!.rating!.isNotEmpty? double.parse(deliveryMan!.rating![0].average!).toStringAsFixed(1) : '0', style: robotoMedium,),
                               ],),
                             ),

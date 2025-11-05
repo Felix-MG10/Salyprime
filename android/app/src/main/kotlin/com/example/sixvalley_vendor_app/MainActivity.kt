@@ -1,4 +1,4 @@
-package com.dakarapps.salyprime_vendor
+package com.dakarapps.melytgo_vendor
 
 import io.flutter.embedding.android.FlutterActivity
 

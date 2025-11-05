@@ -306,7 +306,15 @@ class ConfigModel {
     }
 
 
-    maintenanceModeData = json['maintenance_mode'] != null ? MaintenanceMode.fromJson(json['maintenance_mode']) : null;
+    // maintenance_mode peut être un bool (false/true) ou un objet détaillé
+    if (json['maintenance_mode'] != null) {
+      if (json['maintenance_mode'] is Map<String, dynamic>) {
+        maintenanceModeData = MaintenanceMode.fromJson(json['maintenance_mode']);
+      } else if (json['maintenance_mode'] is bool) {
+        maintenanceMode = json['maintenance_mode'];
+        maintenanceModeData = null;
+      }
+    }
     currencySymbolPosition = json['currency_symbol_position'];
     if(json['wallet_status'] != null) {
       walletStatus = json['wallet_status'] == 0 ? false : true;

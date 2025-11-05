@@ -199,7 +199,7 @@ class CartBottomSheetWidgetState extends State<CartBottomSheetWidget> {
 
                               const SizedBox(height: Dimensions.paddingSizeSmall),
                               Row(children: [
-                                const Icon(Icons.star,color: Colors.orange),
+                                const Icon(Icons.star,color: Color(0xFF2E5367)),
                                 Text(double.parse(ratting).toStringAsFixed(1),
                                     style: titilliumSemiBold.copyWith(fontSize: Dimensions.fontSizeLarge),
                                     maxLines: 2, overflow: TextOverflow.ellipsis),
